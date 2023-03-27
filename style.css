@@ -198,7 +198,9 @@ h2{
     margin-top: 10px;
     background-color: white;
 }
-
+#education{
+    height: 900px;
+}
 .professional-experience::after{
     content: '';
     display: table;
