@@ -11,7 +11,37 @@ body{
 [class*="col-"]{
     width: 100%;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+.top a{
+    position: absolute;
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    animation: name 2s linear infinite;
+    
+}
+@keyframes name {
+    0%{
+        background-color: #f00d3b;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: #bc01ea;
+    }
+}
+.top1 i{
+    margin: 14px;
+    color: aqua;
+    font-size: 30px;
+    
+}
 /* nevbar design starts from here */
 
 .nevbar{
@@ -198,7 +228,9 @@ h2{
     margin-top: 10px;
     background-color: white;
 }
-
+#education{
+    height: 900px;
+}
 .professional-experience::after{
     content: '';
     display: table;
