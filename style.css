@@ -68,6 +68,8 @@ a{
 }
 
 .nevbar h1{
+    height: 40px;
+    width: 200px;
     color: white;
     margin: 20px auto;
     margin-top: -5px;
